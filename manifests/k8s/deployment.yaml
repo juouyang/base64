@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - image: docker.io/juouyang/base64:1.0.0
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           name: base64
           ports:
             - containerPort: 80
