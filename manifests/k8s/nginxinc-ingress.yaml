@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: base64.apps.k8s.<base-domain>
+  - host: base64.apps.k8s.juouyang.com
     http:
       paths:
       - backend:
@@ -22,4 +22,4 @@ spec:
         pathType: Prefix
   tls:
   - hosts:
-    - base64.apps.k8s.<base-domain>
+    - base64.apps.k8s.juouyang.com
